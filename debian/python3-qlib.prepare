@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+
+version=$(grep "^q_version" bin/q.py)
+version=${version##* \'}
+version=${version%*\'}
+echo "export version=$version" >> debian/make.pre
+echo "version=$version" >> debian/rules.pre
+

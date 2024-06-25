@@ -1,0 +1,11 @@
+Source: q-lib
+Section: main
+Priority: optional
+Maintainer: WagnerTech UG <mail@wagnertech.de>
+
+Package: python3-qlib
+Section: base
+Priority: optional
+Architecture: all
+Description: q query lib
+
